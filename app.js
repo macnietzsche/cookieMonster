@@ -1,5 +1,5 @@
-let successors = (root, m, weaknesses = "") => {
-  let connectedCells = [
+const successors = (root, m, weaknesses) => {
+  const connectedCells = [
     [root[0] - 1, root[1]],
     [root[0], root[1] - 1],
     [root[0] + 1, root[1]],
